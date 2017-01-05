@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    margin-top: 15%;
+    text-align: center;
+    color: darkblue;
+}
+div#search {
+    height: 70px
+}
+
+#searchField {
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    color: darkgray;
+    font-size: 1em;
+    height: 50px;
+    -moz-box-shadow: 5px 5px 5px #888;
+    -webkit-box-shadow: 5px 5px 5px #888;
+    box-shadow: 5px 5px 5px #888;
+}
+
+#searchField:focus {
+  color: black;
+}
+
+#searchButton {
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: lightgray;
+    height: 50px;
+    font-size: 1em;
+    -moz-box-shadow: 5px 5px 5px #888;
+    -webkit-box-shadow: 5px 5px 5px #888;
+    box-shadow: 5px 5px 5px #888;
+}
+
+.tweet-header {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.tweet-name {
+    font-size: 1em;
+    margin: 0 1em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.tweet-screen-name {
+    font-size: 0.8em;
+    color: darkgrey;
+    margin-right: 1em;
+}
+
+.tweet-time {
+    font-size: 0.8em;
+    color: darkgray;
+}
+
+.tweet-img {
+  float: right;
+}
+
+.fa {
+  margin-left: 5%;
+}
+
+div.content {
+    border: solid lightgrey 1px;
+    border-top: none;
+}
+
+div.content:first-child {
+  border-top: solid lightgrey 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+div.content:hover {
+    background-color: #e6ffff;
+}
